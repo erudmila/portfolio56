@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.slides{
+  posistion:absolute;
+  left:2px;
+  
+}
+
+body{
+  background-color: #716456;    
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #3e2d18;
+  overflow:hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #9f8d7a;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #7f6753;
+  color: white;
+}
