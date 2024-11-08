@@ -10,7 +10,7 @@ html {
 }
 <!--add more-->
 body{
-  background-color: #F7E1D7;    
+  background-color: #ffd9d9;    
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -41,7 +41,7 @@ body{
 }
 
 h1 {
-text-align:center;
+text-align: center;
 color: #FF6B8B;
 }
 
@@ -52,6 +52,6 @@ color: #FF6B8B;
          box-shadow:2px 2px 2px black;
 
 h2 {
-text-align:center;
+text-align: center;
 color: #F7A5B7;
 }
