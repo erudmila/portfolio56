@@ -49,3 +49,8 @@ text-align:center;
          max-width:300px;
          border-radius:10px;
          box-shadow:2px 2px 2px black;
+
+h2 {
+text-align:center;
+color: #F7A5B7;
+}
