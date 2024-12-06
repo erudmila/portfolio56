@@ -1,11 +1,20 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-  
-  <head> 
-    <title>homepage</title>
+<head>
+    <title>Homepage</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <style>
-          .container {
+        body {
+            background-color: #FFD9D9; /* Set background color */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center elements horizontally */
+            justify-content: center; /* Center elements vertically */
+            min-height: 100vh; /* Full height of the viewport */
+            margin: 0; /* Remove default margin */
+        }
+
+        .container {
             background-color: #e5bee1;
             padding: 20px 40px;
             border-radius: 8px;
@@ -14,42 +23,79 @@
             max-width: 600px;
             font-size: 1em;
             color: #333;
+            margin: 10px; /* Space between containers */
         }
+
         .container h3 {
             font-size: 1.5em;
             font-weight: bold;
             margin-top: 0;
             color: #c93669;
         }
+
+        h2 {
+            text-align: center;
+            color: #F7A5B7;
+            margin: 20px 0; /* Space above and below the heading */
+        }
+
+        img {
+            max-width: 100%; /* Responsive image */
+            height: auto; /* Maintain aspect ratio */
+            margin: 20px 0; /* Space above and below the image */
+        }
+
+        .topnav {
+            background-color: #FFBEDE;
+            overflow: hidden;
+            width: 100%; /* Full width */
+            position: fixed; /* Make it fixed at the top */
+            top: 0; /* Align to the top */
+            z-index: 1000; /* Ensure it stays on top */
+        }
+
+        .topnav a {
+            float: left;
+            color: #edafb8;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #db939d;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #EDAFB8;
+            color: white;
+        }
     </style>
-  </head>
-  
-  <body>
-    
+</head>
+
+<body>
     <div class="topnav">
-      <a class="active" href="index.html">Home</a>
-      <a href="aboutme.html">About me</a>
-      <a href="projects.html">Projects</a>
-      <a href="resume.html">Resume</a>
-      <a href="contact.html">Contact Me</a>
+        <a class="active" href="index.html">Home</a>
+        <a href="aboutme.html">About me</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact Me</a>
     </div>
-    <img src="portfoliobanner.png" alt="Portfolio Banner" width="925" height="200" right="400">
 
+    <img src="portfoliobanner.png" alt="Portfolio Banner">
 
-<h2>As the marking period comes to a close, It's time to reflect on my Web and App development skills so far. </h2>
+    <h2>As the marking period comes to a close, it's time to reflect on my Web and App development skills so far.</h2>
 
+    <div class="container">
+        <h3>DISCLAIMER!</h3>
+        <p>My portfolio will increase its contents as the year goes on. Unfortunately, last year our class made a big change from Replit to GitHub, so a lot of projects were lost.</p>
+    </div>
 
-
-<div class="container">
-    <h3>DISCLAIMER!</h3>
-    <p>My portfolio will increase its contents as the year goes on. Unfortunately, last year our class made a big change from Replit to GitHub, so a lot of projects were lost.</p>
-</div>
- <div class="container">
-    <h3>Reflections</h3>
-   <p>
-The first marking period of our Web and App Development class has been a great start, beginning with a review of the concepts we learned in 11th grade, which helped solidify my understanding of the basics like HTML, CSS, and Python. This review laid a strong foundation and made me feel more confident with web development fundamentals. As we move forward, I’m excited for the more advanced topics ahead,  app development and project management, which will challenge me to expand my skills further. The first marking period has shown me just how much more there is to learn in this field, and while we've only scratched the surface, I'm eager to dive deeper into building more complex projects and gaining hands-on experience in user experience, interactivity, and app design.</p>
-  </div>
-<!--add in the journey-->
-  
-  </body>
+    <div class="container">
+        <h3>Reflections</h3>
+        <p>The first marking period of our Web and App Development class has been a great start, beginning with a review of the concepts we learned in 11th grade, which helped solidify my understanding of the basics like HTML, CSS, and Python. This review laid a strong foundation and made me feel more confident with web development fundamentals. As we move forward, I’m excited for the more advanced topics ahead, app development and project management, which will challenge me to expand my skills further. The first marking period has shown me just how much more there is to learn in this field, and while we've only scratched the surface, I'm eager to dive deeper into building more complex projects and gaining hands-on experience in user experience, interactivity, and app design.</p>
+    </div>
+</body>
 </html>
