@@ -1,176 +1,158 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
   <head>
     <meta><!--UTF-->
     <meta><!--Window-->
     <title>About Me</title>
-    <link><!--Favicon-->
+
     <link href="style.css" rel="stylesheet" type="text/css"><!--CSS-->
 
     <style>
       body {
-  background-image:url(https://i.imgur.com/RMWJlWp.png);
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-attachment:fixed;
-}
-.container {
- margin-left:auto;
- margin-right:auto;
-}
-h3{
-  font-size:40px;
-  font-family: monaco;
-  color: white;
-  text-align:center;
-  font-style:bold;
-}
-p{
-   text-align:center;
-  font-style:italic;
-}
-img {
-  width:200px;
-  height:270px;  
-}
-.center{
-  margin: auto;
-  border: 3px solid white;
-  background-color: white;
-  padding: 10px;
-  margin: 20px; 
-  width: 200px;
-  font-family: monaco;
-  font-size: 30px;
-  border-radius: 20px ;
-  color: #CFB2EC;
-}  
-.about-container{
-  width:70%;
-  height:500px;
-  background-color:#faafc5;
-  border-radius:20px;
-  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-  display:flex;
-  margin:-7 auto 20px auto;
-  position: relative;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.about-container img{
-  width:220px;
-  height:250px;
-  border-radius:70%;
-  border: 6px solid white;
-  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-}
-.about-text{
-  width: 550px;
-}
-.about-text p:nth-child(1){
-  font-family:monaco;
-  font-weight:bold;
-  border: 3px solid white;
-  background-color: white;
-  padding: 10px;
-  margin: 20px; 
-  width: 200px;
-  font-size: 30px;
-  border-radius: 20px ;
-  color: #CFB2EC;
-  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-}
-.about-text p:nth-child(2){
-  color: white;
-  font-size:15px;
-  font-family:monaco;
-  font-weight:bold;
-}
-#images{
-  width: 220px;
-  height: 250px;
-}
-nav{
-  display:flex;
-  justify-content: space-around;
-  align-items:center;
-  background-color: #CFB2EC;
-  color: white;
-  text-transform: lowercase;  
-  font-family: Monaco;
-  letter-spacing: 1.5px;
-  font-style: italic; 
-  text-shadow: 1px 2px 1px grey;
-  box-shadow: 1px 2px 10px rgba(0,0,0,0.2);
-}
-.navigationlinks{
-  display:flex;
-  justify-content: space-around;
-  width: 350px;
-  margin-right: 60px;
-}
-.navigationlinks li{
-  list-style-type: none;
-}
-.navigationlinks a{
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-}
-.navigationlinks li a:hover{
-  color: #f1e3dd;
-}
+        background-image: url(https://i.imgur.com/RMWJlWp.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
 
+      /* Center the container */
+      .container {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      h3 {
+        font-size: 40px;
+        font-family: monaco;
+        color: white;
+        text-align: center;
+        font-weight: bold;  /* Use font-weight for bold */
+      }
+
+      p {
+        text-align: center;
+        font-style: italic;
+      }
+
+      /* Increase image size and add border */
+      .about-container img {
+        width: 300px;  /* Increased width */
+        height: 350px;  /* Increased height */
+        border-radius: 50%;  /* Maintain circular border */
+        border: 8px solid white;  /* Thicker border */
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Style the about container */
+      .about-container {
+        width: 70%;
+        height: auto;  /* Adjust height to content */
+        background-color: #faafc5;
+        border-radius: 20px;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+        display: flex;
+        margin: 20px auto;  /* Auto margin to center */
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px;  /* Add some padding for spacing */
+      }
+
+      /* About text styling */
+      .about-text {
+        width: 55%;  /* Adjust width for better layout */
+      }
+
+      .about-text p:nth-child(1) {
+        font-family: monaco;
+        font-weight: bold;
+        border: 3px solid white;
+        background-color: white;
+        padding: 10px;
+        margin: 20px;
+        width: 220px;
+        font-size: 30px;
+        border-radius: 20px;
+        color: #CFB2EC;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      .about-text p:nth-child(2) {
+        color: white;
+        font-size: 15px;
+        font-family: monaco;
+        font-weight: bold;
+      }
+
+      /* Styling for the navigation bar */
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #CFB2EC;
+        color: white;
+        text-transform: lowercase;
+        font-family: Monaco;
+        letter-spacing: 1.5px;
+        font-style: italic;
+        text-shadow: 1px 2px 1px grey;
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .navigationlinks {
+        display: flex;
+        justify-content: space-around;
+        width: 350px;
+        margin-right: 60px;
+      }
+
+      .navigationlinks li {
+        list-style-type: none;
+      }
+
+      .navigationlinks a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+      }
+
+      .navigationlinks li a:hover {
+        color: #f1e3dd;
+      }
 
     </style>
   </head>
 
-  
   <body>
-    
     <div class="topnav">
-      <a class="active"href="index.html">Home</a>
+      <a class="active" href="index.html">Home</a>
       <a href="aboutme.html">About Me</a>
       <a href="projects.html">Projects</a>
       <a href="resume.html">Resume</a>
       <a href="contact.html">Contact Me</a>
     </div>
 
-    <H1>About Me</H1>
-    
-  
-        </div>
+    <h1>About Me</h1>
+
+    <!-- About Section -->
+    <div class="about-container">
+      <!-- Image -->
+      <img src="me3.jpeg" alt="Elma Rudmila">
+      <!-- About Text -->
+      <div class="about-text">
+        <p>Elma Rudmila</p>
+        <p>I'm Elma Rudmila and throughout my years at Thomas A. Edison CTE High School I have been in Web/App Development. In this class we have focused on improving our skills in different languages of code. In 10th grade, we learned the basics and fundamentals of HTML and CSS. During 11th grade, we learned Python and started participating in competitions. And now in 12th grade, we are focusing on reviewing our skills and learning new aspects.</p>
+        <p>Skills:</p>
+        <ul>
+          <li>Technical Skills: Web and App Development (HTML, CSS, Python)</li>
+          <li>Social Media Management: Content Creation, Engagement</li>
+          <li>Interpersonal Skills: Customer Service, Team Collaboration</li>
+          <li>Video Editing: Capcut, iMovie</li>
+          <li>Documents: Microsoft Word, Google Docs, Google Sheets, Google Drive</li>
+        </ul>
+      </div>
     </div>
-     
 
-
-         <!--about section------>
-         <div class="about-container">
-           <!--img----------->
-           <img src="me3.jpeg">
-           <!--about-text------>
-           <div class="about-text">
-             <p> Elma Rudmila </p>
-             <p> I'm Elma Rudmila and throughout my years at Thomas A. Edison CTE High School I have been in Web/App Development. In this class we have focused on improving our skills in different lamgguages of code. In 10th grade, We learn the basics and fundementals of HTML and CSS. During 11th grade, We learned python and we started to participate in comepetitions. And now 12th grade, currently, we are focusing on reviewing our skills and learning new aspects.</p>
-           <p>Skills:</p>
-      <ul>
-  <li>Technical Skills: Web and App Development (HTML, CSS, Python)</li>
-  <li>Social Media Management: Content Creation, Engagement</li>
-  <li>Interpersonal Skills: Customer Service, Team Collaboration</li>
-        <li>Video Editing: Capcut, iMovie</li>
-        <li>Documents: Microsoft Word, Google Docs, Google Sheets, Google drive</li>
-</ul>
-           </div>
-         </div>
-         <br>
-         <!---social media---->
-      
-    
-         
-          <br><br><br>
-              
-      
-         
+    <br><br><br>
   </body>
 </html>
 
